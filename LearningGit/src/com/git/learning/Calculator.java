@@ -11,6 +11,12 @@ public class Calculator {// in project name firstone is projectName second is re
 
 	
 	public int add(int x,int y) {
-		return x+y;
+		int result = 0;
+		result = x+y;
+		return result;
+	}
+	
+	public int multiply(int x,int y) {
+		return x*y;
 	}
 }
