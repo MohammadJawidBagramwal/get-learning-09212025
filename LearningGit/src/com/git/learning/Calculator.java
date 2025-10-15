@@ -8,6 +8,7 @@ public class Calculator {// in project name firstone is projectName second is re
 	// things we need // they will send you link for joining GithUB
 	//1- login credentials for GitHub.(user_name + password)  goto GitHub.come enter userName+password sign up/sign in
 	//
+
 	
 	public int add(int x,int y) {
 		int result = 0;
@@ -18,4 +19,25 @@ public class Calculator {// in project name firstone is projectName second is re
 	public int multiply(int x,int y) {
 		return x*y;
 	}
+
+	
+	public int division(int x, int y) {
+	
+		int result = 0;
+		try {
+		if(y != 0) {// new thing leraned new fixing != 0
+			
+		 	result =x/y;
+			
+		}else {
+			throw new Exception("you can not divide number bu zero");
+			
+		}
+
+	}catch(Exception e) {
+		e.printStackTrace();
+	}
+		return result;
 }
+}
+
